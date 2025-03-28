@@ -1,0 +1,26 @@
+{
+  "name": "maintenance-bot",
+  "description": "Discord bot to gracefully handle requests while another bot is unavailable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Paige Andrews",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "maintenance"
+  ],
+  "engines": {
+    "node": "22"
+  },
+  "packageManager": "yarn@4.8.0",
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
