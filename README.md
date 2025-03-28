@@ -8,7 +8,6 @@ To use Maintenance Bot, you need to supply the credentials for the bot you want 
 
 * `BOT_TOKEN`: Target bot application token
 * `CLIENT_ID`: ID of the bot's discord user
-* `BOT_NAME`: Name of the bot that's down
 
 Once those are set, turn the main bot off and run `yarn start` to let Maintenance Bot handle requests. When you're ready to switch back over, turn off Maintenance Bot first, then start up the original bot.
 
